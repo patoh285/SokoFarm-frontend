@@ -49,7 +49,7 @@ const FarmerDashboard = () => {
           <div style={{ display: 'flex', gap: 12 }}>
             {product.image_url && (
               <img
-                src={`http://localhost:5000${product.image_url}`}
+                src={`https://elude-prevail-breeches.ngrok-free.dev ->${product.image_url}`}
                 alt={product.name}
                 style={{ width: 60, height: 60, objectFit: 'cover', borderRadius: 6 }}
               />

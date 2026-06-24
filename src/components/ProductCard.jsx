@@ -7,7 +7,7 @@ const ProductCard = ({ product, onOrder }) => {
         <div>
             {product.image_url && (
   <img
-    src={`http://localhost:5000${product.image_url}`}
+    src={`https://elude-prevail-breeches.ngrok-free.dev ->${product.image_url}`}
     alt={product.name}
     style={{ width: '100%', height: 160, objectFit: 'cover', borderRadius: 6, marginBottom: 10 }}
   />
